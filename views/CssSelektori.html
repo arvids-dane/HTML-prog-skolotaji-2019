@@ -47,21 +47,21 @@
         <div id="wrap">
                 <div id="main">
                     <H1>Šie ir daži svarīgākie Selektori:</H1>
-                    <ul>
-                        <li> ".class" - Izmantojot tiek piekļūts klasei, kas ir pieejama lapā.</li>
+                    <ul id="CssSelectorList">
+                        <li class="oddListItems"> ".class" - Izmantojot tiek piekļūts klasei, kas ir pieejama lapā.</li>
                         <li>”.class1.class2" - Piekļūst objektam lapā, kuram ir gan "class1", gan "class2", kā klase.</li>
-                        <li>".class1 .class2" - Piekļūst objektiem "class2", kas ir elementa ar klasi "class1" pēcnācēji.</li>
+                        <li class="oddListItems">".class1 .class2" - Piekļūst objektiem "class2", kas ir elementa ar klasi "class1" pēcnācēji.</li>
                         <li> "#id" - Izmantojot "#" tiek piekļūts elementam ar norādīto ID. kas ir pieejama lapā.</li>
-                        <li> "*" - Izmantojot var piekļūt visiem lapas elementiem</li>
+                        <li class="oddListItems"> "*" - Izmantojot var piekļūt visiem lapas elementiem</li>
                         <li>"p" - Piekļūst visiem "< p >" elementiem, kas ir lapā</li>
-                        <li>"div,p" - Piekļūst visiem "< div >" elementiem un "< p >" elementiem, kas ir lapā</li>
+                        <li class="oddListItems">"div,p" - Piekļūst visiem "< div >" elementiem un "< p >" elementiem, kas ir lapā</li>
                         <li>"div p" - Piekļūst visiem "< p >" elementiem kas ir iekš "< div >" elementa, kas ir lapā</li>
-                        <li>"div>p" - Piekļūst visiem "< p >" elementiem kuriem tiešais vecāka elements ir "< div >"</li>
+                        <li class="oddListItems">"div>p" - Piekļūst visiem "< p >" elementiem kuriem tiešais vecāka elements ir "< div >"</li>
                         <li>"div+p" - Piekļūst visiem "< p >" elementiem kuri ir uzreiz aiz "< div >" elementa</li>
-                        <li> ":not(p)" - Atlasa visus elementus, kas nav "< p >"</li>
+                        <li class="oddListItems"> ":not(p)" - Atlasa visus elementus, kas nav "< p >"</li>
                         <li>"p:first-child" - Atlasa visus "< p >" elementus, kas ir pirmie pēcnācēji vecāku elementam</li>
-                        <li> "p:nth-child(2)" - Atasa visus "< p >" elementus, kas ir otrie pēcnācēji vecāku elementam</li>
-                        <li> "a:hover" - Atasa saiti kad ar peli uzbruac uz tās</li>
+                        <li class="oddListItems"> "p:nth-child(2)" - Atasa visus "< p >" elementus, kas ir otrie pēcnācēji vecāku elementam</li>
+                        <li class="hoverClass"> "a:hover" - Atasa saiti kad ar peli uzbruac uz tās</li>
                     </ul>
                     <p>Ir vēl daudz un dažādi CSS selektori. Tos var apskatīt <a href="https://www.w3schools.com/cssref/css_selectors.asp">spiežot šeit.</a></p>
                     <p>Ja ir vēlme patestēt un paskatīties, kuri elementi tiek izvēlēti uz kuru CSS selektoru, tad <a href="https://www.w3schools.com/cssref/trysel.asp">spiediet šeit</a></p>
